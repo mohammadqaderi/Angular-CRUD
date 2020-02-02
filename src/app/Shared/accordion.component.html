@@ -1,0 +1,20 @@
+<div class="container my-4">
+
+    <div class="card bg-light mb-3">
+      <div class="card-header mb-3 bg-primary pointerCursor"
+        [class.bg-dark]="hasJustViewd"
+        (click)="isHidden = !isHidden">
+        <h2 class="card-title c1 align-center">{{title | uppercase}}</h2>
+      </div>
+    
+    <div class="card-body" [hidden]="isHidden">
+      <ng-content select=".myPanelBody"></ng-content>
+      
+      </div>
+      <div class="card-footer" [hidden]="isHidden">
+          <ng-content select=".myPanelFooter"></ng-content>
+
+    </div>
+  
+  </div>
+  

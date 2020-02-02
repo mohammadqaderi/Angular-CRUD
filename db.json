@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Murray",
+      "gender": "male",
+      "email": "Murray@gmail.com",
+      "phoneNumber": 3242342343,
+      "contactPreference": "email",
+      "dateOfBirth": "02/10/1994",
+      "departments": "Human Resources",
+      "isActive": true,
+      "photoPath": "assets/images/p1.png"
+    },
+    {
+      "id": 2,
+      "name": "Marry",
+      "gender": "female",
+      "email": "Marry@gmail.com",
+      "phoneNumber": 32423842394,
+      "contactPreference": "email",
+      "dateOfBirth": "02/01/1992",
+      "departments": "Paroll",
+      "isActive": true,
+      "photoPath": "assets/images/p2.png"
+    },
+    {
+      "id": 4,
+      "name": "sami",
+      "email": "sami@gmail.com",
+      "phoneNumber": null,
+      "gender": "male",
+      "isActive": true,
+      "departments": "IT",
+      "contactPreference": "email",
+      "dateOfBirth": "2019-06-09T19:49:51.000Z",
+      "photoPath": "assets/images/p1.png"
+    }
+  ]
+}

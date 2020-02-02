@@ -1,0 +1,10 @@
+.vertical-align{
+    display: flex;
+    align-items: center;
+}
+.c1{
+    text-align: center;
+}
+.pointerCursor{
+    cursor: pointer;
+}

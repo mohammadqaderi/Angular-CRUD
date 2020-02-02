@@ -1,0 +1,19 @@
+<div class="container-fluid my-4">
+  <div class="form-group">
+    <input class="form-control" type="text" [(ngModel)]="searchTerm"
+    placeholder="Search for Employee">
+  </div>
+  <!-- <div class="form-group">
+     <button (click)="pipeChanges()" type="button" class="btn btn-primary btn-lg">
+       Pipe Changes
+     </button>
+    </div> -->
+  <div  *ngFor="let employee of filteredEmployees">
+    <app-display-employee [employee]="employee" [searchTerm]="searchTerm"
+    (notifyDelete)="onDeleteNotification($event)">
+    </app-display-employee>
+  </div>
+  <div *ngIf="error">
+    {{error}}
+  </div>
+</div>
